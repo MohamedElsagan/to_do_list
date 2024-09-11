@@ -1,0 +1,52 @@
+@media(min-width:676px) and (max-width:730px){
+    
+    .container .title h1 {
+        font-size: 75px;
+    }
+}
+@media(min-width:530px) and (max-width:675px){
+    .container .title h1 {
+        font-size: 58px;
+    }
+}
+@media(min-width:411.9px) and (max-width:529px){
+    .container .title {
+        bottom: 90px;
+    }
+    .container .title h1 {
+        font-size: 50px;
+    }
+    .container .text {
+        width: 385px;
+    }
+    .container .tasks .task {
+        width: 346px;
+        display: flex;
+        gap: 10;
+    }
+    .x {
+        right: 2%;
+    }
+}
+@media(max-width:411.8px){
+    .container .title {
+        position: relative;
+        bottom: 91px;
+    }
+    .container .title h1 {
+        font-size: 45px;
+        color: red;
+        text-shadow: 12px 23px 4px #00000096;
+        font-weight: bolder;
+    }
+    .container .text {
+        width: 322px;
+        margin-bottom: 16px;
+    }
+    .container .tasks .task {
+        width: 300px;
+        display: flex;
+        gap: 10;
+    }
+    
+}

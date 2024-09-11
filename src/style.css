@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+body{
+    background: linear-gradient(red );
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    top: 30%;
+    display: flex;
+    gap: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .title{
+    position: relative;
+    bottom: 120px;
+    width: 100%;
+}
+
+.container .title h1{
+    font-size: 80px;
+    color: red;
+    text-shadow: 12px 23px 4px #00000096;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.container .text{
+    width: 500px;
+    
+}
+
+.container .text input{
+    width: 100%;
+    padding: 5%;
+    text-transform: capitalize;
+    border-radius:20px ;
+    border-color: red blue indianred rgba(23, 164, 79, 0.799);
+    border-width: 4px;
+    font-size: 25px;
+    transition: 1s;
+
+
+}
+
+.container .text input:hover{
+    background-color: rgba(200, 210, 214, 0.865);
+}
+
+.container .text input::placeholder{
+    text-align: right;
+    font-size: large;
+    font-size: large;
+}
+
+.container .button {
+    margin: 4%;
+}
+
+.container .button button , button{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    border: 3px solid ;
+    border-color: rgb(218, 173, 133) black;
+    border-radius: 30px 0px ;
+    font-size: 28px;
+    font-weight: 900;
+    background-color: rgb(245, 187, 214);
+    transition: .5s;
+}
+
+.container .button button:hover ,button:hover{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(218, 173, 133) rgb(187, 21, 21);
+    color: white;
+    letter-spacing: 2px;
+}
+
+.container .tasks{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .tasks .task{
+    width: 400px;
+    display: flex;
+    gap: 10;
+}
+
+.container .tasks .task input{
+    padding: 3%;
+    margin: 2%;
+    width: 100%;
+    border-radius:10px ;
+    border-color: red blue indianred rgba(23, 164, 79, 0.799);
+    border-width: 3px;
+    font-size: 20px;
+}
+
+.x{
+    font-size: 30px;
+    right: 10%;
+    border-width: 1px;
+    border-radius: 37px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    bottom: -16px;
+    cursor: pointer;
+    height: 34px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.x:hover{
+    color: red;
+    background-color: black;
+    transition: 200ms;
+}
+
+.show_all_tasks{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 21px;
+}
+
+.none{
+    display: none;
+}
+@media print{
+    button{
+        display: none;
+    }
+}
