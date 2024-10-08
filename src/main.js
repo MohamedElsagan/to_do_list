@@ -69,36 +69,7 @@ function delete_one(dele){
     read();
 }
 
-// delete all
 
 
 
 
-
-
-// update
-// clean data
-
-priint.addEventListener('click' , function(){
-    var div2=`
-        <div class="title" id="title">
-            <h1>قائمة المهمات</h1>
-        </div>`;
-    if(container.classList.toggle('none')){
-
-        for(var i = 0 ; i < all_tasks.length ; i++){
-            div2 += `<h1>${all_tasks[i].task}</h1>`;
-            console.log(all_tasks[i].task)
-        }
-        show_all_tasks.innerHTML = div2;
-        priint.style.width = '300px';
-        priint.innerHTML = 'الرجوع لقائمة المهمات'
-        print();
-
-    }
-    else{
-        div2 = '';
-        show_all_tasks.innerHTML = div2;
-    }
-  
-})
