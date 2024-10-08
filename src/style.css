@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(red );
+    background-color: rgba(0, 0, 0, 0.881);
 }
 
 .container{
@@ -28,7 +28,7 @@ body{
 
 .container .title h1{
     font-size: 80px;
-    color: red;
+    color: white;
     text-shadow: 12px 23px 4px #00000096;
     font-weight: bolder;
     text-align: center;
@@ -75,9 +75,9 @@ body{
     border: 3px solid ;
     border-color: rgb(218, 173, 133) black;
     border-radius: 30px 0px ;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 900;
-    background-color: rgb(245, 187, 214);
+    background-color: #f5e8ea;
     transition: .5s;
 }
 
@@ -112,7 +112,7 @@ body{
 .x{
     font-size: 30px;
     right: 10%;
-    border-width: 1px;
+    border-width: 18px;
     border-radius: 37px;
     background-color: rgb(255, 0, 0);
     position: relative;
